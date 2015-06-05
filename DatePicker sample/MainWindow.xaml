@@ -1,0 +1,10 @@
+﻿<Window xmlns:WPF="clr-namespace:TXTextControl.WPF;assembly=TXTextControl.WPF"  x:Class="DatePicker_sample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="400" Width="600">
+    <Grid Name="Grid1">
+        <DockPanel>
+            <WPF:TextControl Name="textControl" TextFieldClicked="textControl_TextFieldClicked" PreviewMouseDown="textControl_PreviewMouseDown" Loaded="textControl_Loaded" />
+        </DockPanel>
+    </Grid>
+</Window>
